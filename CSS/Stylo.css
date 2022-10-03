@@ -1,0 +1,89 @@
+#m2 {
+    color:white
+}
+#m1 {
+    color:grey;
+}
+
+#m3:hover{
+    color:green;
+}
+
+#m3 {
+    color:grey;
+}
+#title-conf {
+    color:white;
+} 
+.border-success {
+    --bs-border-opacity: 1;
+    border-color: rgba(var(--bs-success-rgb), var(--bs-border-opacity)) !important;
+  }
+
+  .card-body{
+    padding: 0;
+  }
+  .m2{
+    color:white
+}
+
+.cajaflotante{
+    width: 50%;
+    margin-left: auto; 
+    margin-right: 20px;
+    margin-top: 20%;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: flex-end
+}
+.izquierda{
+    text-align:left;
+}
+
+.centro{
+    text-align: center;
+}
+
+.margen{
+    margin-left:auto;
+}
+.botonizquierda{
+     float: left;
+    }
+    
+#miTablaPersonalizadath{
+    width: 500px;
+    overflow: auto;
+    border: 9px solid;
+  }
+.margen2{
+    margin-left: 4%;
+    }
+.margen3{
+        margin-left: 3%;
+        }    
+    .flex-container{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding: 80px;
+        flex-direction: row;
+        background-image:linear-gradient(90deg,
+        hsl(197deg 42% 18%) 0%,
+        hsl(198deg 44% 19%) 14%,
+        hsl(198deg 46% 20%) 28%,
+        hsl(199deg 48% 21%) 41%,
+        hsl(199deg 50% 22%) 53%,
+        hsl(199deg 53% 23%) 65%,
+        hsl(200deg 55% 24%) 76%,
+        hsl(200deg 57% 25%) 85%,
+        hsl(200deg 59% 26%) 94%,
+        hsl(200deg 61% 27%) 100%) ;
+        padding: 10px;
+
+    }    
+    .flex-container div{
+        font-size: 30px;
+    }
